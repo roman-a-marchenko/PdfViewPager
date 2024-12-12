@@ -21,16 +21,15 @@ import android.content.Intent;
 
 import java.io.IOException;
 
-import es.voghdev.pdfviewpager.library.BuildConfig;
 import es.voghdev.pdfviewpager.library.util.FileUtil;
 
 public class CopyAssetService extends IntentService {
     private static final String ACTION_COPY_ASSET =
-            BuildConfig.LIBRARY_PACKAGE_NAME + ".copy_asset";
+            "es.voghdev.pdfviewpager.library.copy_asset";
     private static final String EXTRA_ASSET =
-            BuildConfig.LIBRARY_PACKAGE_NAME + ".asset";
+            "es.voghdev.pdfviewpager.library.asset";
     private static final String EXTRA_DESTINATION =
-            BuildConfig.LIBRARY_PACKAGE_NAME + ".destination_path";
+            "es.voghdev.pdfviewpager.library.destination_path";
 
     public CopyAssetService() {
         super("CopyAssetService");
