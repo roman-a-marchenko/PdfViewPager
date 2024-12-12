@@ -25,6 +25,8 @@ android {
     defaultConfig {
         minSdkVersion 29
         targetSdkVersion 33
+        versionCode 2
+        versionName "1.0.5"
     }
 
     buildTypes {
@@ -79,5 +81,20 @@ artifacts {
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+
+publishing {
+    publications {
+        release(MavenPublication) {
+//            afterEvaluate {
+//                // Use the appropriate component
+//                from components.release
+//            }
+            groupId = 'com.github.RinorDreshaj'
+            artifactId = 'PdfViewPager'
+            version = '1.0.5'
+        }
     }
 }
