@@ -1,5 +1,8 @@
-apply plugin: 'com.android.library'
-apply plugin: 'checkstyle'
+plugins {
+    id 'com.android.library'
+    id 'maven-publish'
+}
+
 
 ext {
     libraryName = 'PdfViewPager'
