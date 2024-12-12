@@ -1,8 +1,7 @@
 # PdfViewPager
 
-[![Download](https://api.bintray.com/packages/voghdev/maven/pdfviewpager/images/download.svg) ](https://bintray.com/voghdev/maven/pdfviewpager/_latestVersion)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-PdfViewPager-green.svg?style=true)](https://android-arsenal.com/details/1/3155)
-[![Build Status](https://travis-ci.org/voghDev/PdfViewPager.svg?branch=master)](https://travis-ci.org/voghDev/PdfViewPager)
+[![](https://jitpack.io/v/RinorDreshaj/PdfViewPager.svg)](https://jitpack.io/#RinorDreshaj/PdfViewPager)
+
 
 Android widget to display PDF documents in your Activities or Fragments.
 
