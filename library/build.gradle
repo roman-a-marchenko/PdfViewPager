@@ -88,10 +88,6 @@ java {
 publishing {
     publications {
         release(MavenPublication) {
-//            afterEvaluate {
-//                // Use the appropriate component
-//                from components.release
-//            }
             groupId = 'com.github.RinorDreshaj'
             artifactId = 'PdfViewPager'
             version = '1.0.5'
