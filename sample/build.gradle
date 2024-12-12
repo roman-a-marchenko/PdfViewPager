@@ -1,13 +1,23 @@
 apply plugin: 'com.android.application'
-apply plugin: 'checkstyle'
 
 android {
     namespace "es.voghdev.pdfviewpager"
-    compileSdkVersion 34
+
+    buildscript {
+        repositories {
+            google()
+            mavenCentral()
+        }
+        dependencies {
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.8.22"
+        }
+    }
+
 
     defaultConfig {
         applicationId "es.voghdev.pdfviewpager"
         minSdkVersion 29
+        compileSdk 34
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
@@ -27,17 +37,13 @@ android {
     }
 }
 
-task checkstyle(type: Checkstyle) {
-    configFile = rootProject.file('config/checkstyle.xml')
 
-    source 'src'
-    include '**/*.java'
-    exclude '**/gen/**'
-
-    classpath = files()
-}
 
 dependencies{
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.22"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.8.22"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.22"
+
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'androidx.appcompat:appcompat:1.7.0'
     implementation project(":library")

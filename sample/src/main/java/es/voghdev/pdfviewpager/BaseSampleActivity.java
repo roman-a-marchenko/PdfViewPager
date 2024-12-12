@@ -33,7 +33,7 @@ public class BaseSampleActivity extends AppCompatActivity {
     }
 
     protected void configureActionBar() {
-        int color = ContextCompat.getColor(this, R.color.pdfViewPager_ab_color);
+        int color = ContextCompat.getColor(this, es.voghdev.pdfviewpager.library.R.color.pdfViewPager_ab_color);
         ActionBar ab = getSupportActionBar();
         ab.setBackgroundDrawable(new ColorDrawable(color));
     }
