@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager.library.asset;
+package com.grasshopper.pdfviewpager.library.asset;
 
 public interface CopyAsset {
     void copy(String assetName, String destinationPath);

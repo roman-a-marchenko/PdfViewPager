@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager;
+package com.grasshopper.pdfviewpager;
 
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -33,7 +33,7 @@ public class BaseSampleActivity extends AppCompatActivity {
     }
 
     protected void configureActionBar() {
-        int color = ContextCompat.getColor(this, es.voghdev.pdfviewpager.library.R.color.pdfViewPager_ab_color);
+        int color = ContextCompat.getColor(this, com.grasshopper.pdfviewpager.library.R.color.pdfViewPager_ab_color);
         ActionBar ab = getSupportActionBar();
         ab.setBackgroundDrawable(new ColorDrawable(color));
     }

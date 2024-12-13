@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager;
+package com.grasshopper.pdfviewpager;
 
 import android.Manifest;
 import android.content.Intent;
@@ -25,9 +25,9 @@ import android.widget.Toast;
 
 import androidx.core.app.ActivityCompat;
 
-import es.voghdev.pdfviewpager.library.PDFViewPager;
-import es.voghdev.pdfviewpager.library.adapter.BasePDFPagerAdapter;
-import es.voghdev.pdfviewpager.library.adapter.PDFPagerAdapter;
+import com.grasshopper.pdfviewpager.library.PDFViewPager;
+import com.grasshopper.pdfviewpager.library.adapter.BasePDFPagerAdapter;
+import com.grasshopper.pdfviewpager.library.adapter.PDFPagerAdapter;
 
 public class MainActivity extends BaseSampleActivity {
     PDFViewPager pdfViewPager;

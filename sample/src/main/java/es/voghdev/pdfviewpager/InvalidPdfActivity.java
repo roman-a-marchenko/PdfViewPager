@@ -1,13 +1,13 @@
-package es.voghdev.pdfviewpager;
+package com.grasshopper.pdfviewpager;
 
 import android.os.Bundle;
 import android.view.View;
 
 import androidx.annotation.Nullable;
 
-import es.voghdev.pdfviewpager.library.PDFViewPager;
-import es.voghdev.pdfviewpager.library.adapter.PDFPagerAdapter;
-import es.voghdev.pdfviewpager.library.adapter.PdfErrorHandler;
+import com.grasshopper.pdfviewpager.library.PDFViewPager;
+import com.grasshopper.pdfviewpager.library.adapter.PDFPagerAdapter;
+import com.grasshopper.pdfviewpager.library.adapter.PdfErrorHandler;
 
 import static android.view.View.VISIBLE;
 

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager;
+package com.grasshopper.pdfviewpager;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -23,10 +23,10 @@ import android.widget.Toast;
 
 import java.io.File;
 
-import es.voghdev.pdfviewpager.library.PDFViewPager;
-import es.voghdev.pdfviewpager.library.adapter.BasePDFPagerAdapter;
-import es.voghdev.pdfviewpager.library.asset.CopyAsset;
-import es.voghdev.pdfviewpager.library.asset.CopyAssetThreadImpl;
+import com.grasshopper.pdfviewpager.library.PDFViewPager;
+import com.grasshopper.pdfviewpager.library.adapter.BasePDFPagerAdapter;
+import com.grasshopper.pdfviewpager.library.asset.CopyAsset;
+import com.grasshopper.pdfviewpager.library.asset.CopyAssetThreadImpl;
 
 public class AssetOnSDActivity extends BaseSampleActivity {
     final String[] sampleAssets = {"adobe.pdf", "sample.pdf"};

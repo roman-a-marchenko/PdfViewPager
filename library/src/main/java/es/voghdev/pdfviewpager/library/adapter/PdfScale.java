@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager.library.adapter;
+package com.grasshopper.pdfviewpager.library.adapter;
 
 public class PdfScale {
     public static final float DEFAULT_SCALE = 1.0f;

@@ -1,4 +1,4 @@
-package es.voghdev.pdfviewpager.library.subscaleview;
+package com.grasshopper.pdfviewpager.library.subscaleview;
 
 import java.util.Arrays;
 import java.util.List;

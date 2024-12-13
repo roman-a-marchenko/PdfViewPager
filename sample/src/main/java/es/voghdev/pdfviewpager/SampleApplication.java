@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager;
+package com.grasshopper.pdfviewpager;
 
 import android.app.Application;
 import android.os.Handler;
 
 import java.io.File;
 
-import es.voghdev.pdfviewpager.library.asset.CopyAsset;
-import es.voghdev.pdfviewpager.library.asset.CopyAssetThreadImpl;
+import com.grasshopper.pdfviewpager.library.asset.CopyAsset;
+import com.grasshopper.pdfviewpager.library.asset.CopyAssetThreadImpl;
 
 public class SampleApplication extends Application {
     final String[] sampleAssets = {"adobe.pdf", "sample.pdf", "moby.pdf"};

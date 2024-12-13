@@ -1,4 +1,4 @@
-package es.voghdev.pdfviewpager.library.subscaleview.decoder;
+package com.grasshopper.pdfviewpager.library.subscaleview.decoder;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -24,7 +24,7 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
-import es.voghdev.pdfviewpager.library.subscaleview.SubsamplingScaleImageView;
+import com.grasshopper.pdfviewpager.library.subscaleview.SubsamplingScaleImageView;
 
 
 public class SkiaImageRegionDecoder implements ImageRegionDecoder {

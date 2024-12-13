@@ -1,4 +1,4 @@
-package es.voghdev.pdfviewpager.library.util;
+package com.grasshopper.pdfviewpager.library.util;
 
 import android.view.View;
 

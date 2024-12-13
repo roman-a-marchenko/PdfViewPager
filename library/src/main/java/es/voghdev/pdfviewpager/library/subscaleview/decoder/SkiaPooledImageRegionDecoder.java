@@ -1,4 +1,4 @@
-package es.voghdev.pdfviewpager.library.subscaleview.decoder;
+package com.grasshopper.pdfviewpager.library.subscaleview.decoder;
 
 import android.app.ActivityManager;
 import android.content.ContentResolver;
@@ -33,7 +33,7 @@ import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import java.util.regex.Pattern;
 
-import es.voghdev.pdfviewpager.library.subscaleview.SubsamplingScaleImageView;
+import com.grasshopper.pdfviewpager.library.subscaleview.SubsamplingScaleImageView;
 
 import static android.content.Context.ACTIVITY_SERVICE;
 

@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "es.voghdev.pdfviewpager"
+    namespace "com.grasshopper.pdfviewpager"
 
     buildscript {
         repositories {
@@ -18,7 +18,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "es.voghdev.pdfviewpager"
+        applicationId "com.grasshopper.pdfviewpager"
         minSdkVersion 29
         compileSdk 34
     }

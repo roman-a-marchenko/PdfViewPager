@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager.library.remote;
+package com.grasshopper.pdfviewpager.library.remote;
 
 import android.content.Context;
 import android.os.Handler;

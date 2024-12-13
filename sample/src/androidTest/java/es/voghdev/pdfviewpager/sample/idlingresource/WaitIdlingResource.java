@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager.sample.idlingresource;
+package com.grasshopper.pdfviewpager.sample.idlingresource;
 
 import androidx.test.espresso.IdlingResource;
 

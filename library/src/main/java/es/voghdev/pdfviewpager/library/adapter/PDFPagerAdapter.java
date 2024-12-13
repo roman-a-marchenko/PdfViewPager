@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager.library.adapter;
+package com.grasshopper.pdfviewpager.library.adapter;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -23,10 +23,11 @@ import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 
-import es.voghdev.pdfviewpager.library.R;
-import es.voghdev.pdfviewpager.library.subscaleview.ImageSource;
-import es.voghdev.pdfviewpager.library.subscaleview.SubsamplingScaleImageView;
-import es.voghdev.pdfviewpager.library.util.EmptyClickListener;
+import com.grasshopper.pdfviewpager.library.subscaleview.ImageSource;
+import com.grasshopper.pdfviewpager.library.subscaleview.SubsamplingScaleImageView;
+import com.grasshopper.pdfviewpager.library.util.EmptyClickListener;
+
+import com.grasshopper.pdfviewpager.library.R;
 
 public class PDFPagerAdapter extends BasePDFPagerAdapter {
 

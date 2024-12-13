@@ -20,7 +20,7 @@ ext {
 android {
     compileSdk 34
 
-    namespace 'es.voghdev.pdfviewpager.library'
+    namespace 'com.grasshopper.pdfviewpager.library'
 
     defaultConfig {
         minSdkVersion 29
@@ -91,7 +91,20 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.RinorDreshaj'
             artifactId = 'PdfViewPager'
-            version = '1.0.8'
+            version = '1.0.9'
+
+            artifact(bundleReleaseAar())
+
+            // Include sources and javadocs if needed
+            pom {
+                name = 'PdfViewPager'
+                description = 'A custom PDF viewer library'
+            }
         }
     }
+}
+
+// Helper function to bundle the release AAR
+def bundleReleaseAar() {
+    return "${buildDir}/outputs/aar/${project.name}-release.aar"
 }

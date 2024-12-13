@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager.sample;
+package com.grasshopper.pdfviewpager.sample;
 
 import androidx.test.espresso.Espresso;
 import androidx.test.espresso.IdlingResource;
@@ -28,9 +28,9 @@ import org.junit.runner.RunWith;
 
 import java.util.List;
 
-import es.voghdev.pdfviewpager.MainActivity;
-import es.voghdev.pdfviewpager.R;
-import es.voghdev.pdfviewpager.sample.idlingresource.WaitIdlingResource;
+import com.grasshopper.pdfviewpager.MainActivity;
+import com.grasshopper.pdfviewpager.R;
+import com.grasshopper.pdfviewpager.sample.idlingresource.WaitIdlingResource;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;

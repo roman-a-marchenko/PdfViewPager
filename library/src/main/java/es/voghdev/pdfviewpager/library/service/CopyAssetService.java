@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager.library.service;
+package com.grasshopper.pdfviewpager.library.service;
 
 import android.app.IntentService;
 import android.content.Context;
@@ -21,8 +21,8 @@ import android.content.Intent;
 
 import java.io.IOException;
 
-import es.voghdev.pdfviewpager.library.BuildConfig;
-import es.voghdev.pdfviewpager.library.util.FileUtil;
+import com.grasshopper.pdfviewpager.library.BuildConfig;
+import com.grasshopper.pdfviewpager.library.util.FileUtil;
 
 public class CopyAssetService extends IntentService {
     private static final String ACTION_COPY_ASSET =

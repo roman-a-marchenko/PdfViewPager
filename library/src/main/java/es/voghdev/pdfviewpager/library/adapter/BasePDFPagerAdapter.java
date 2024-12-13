@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager.library.adapter;
+package com.grasshopper.pdfviewpager.library.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -32,7 +32,7 @@ import java.io.File;
 import java.io.IOException;
 import java.net.URI;
 
-import es.voghdev.pdfviewpager.library.R;
+import com.grasshopper.pdfviewpager.library.R;
 
 public class BasePDFPagerAdapter extends PagerAdapter {
     protected static final int FIRST_PAGE = 0;

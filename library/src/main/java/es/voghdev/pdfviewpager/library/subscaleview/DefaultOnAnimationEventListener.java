@@ -1,4 +1,4 @@
-package es.voghdev.pdfviewpager.library.subscaleview;
+package com.grasshopper.pdfviewpager.library.subscaleview;
 
 public class DefaultOnAnimationEventListener implements OnAnimationEventListener {
     public void onComplete() {

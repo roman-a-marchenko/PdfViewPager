@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager.library.asset;
+package com.grasshopper.pdfviewpager.library.asset;
 
 import android.content.Context;
 import android.os.Handler;
 
 import java.io.IOException;
 
-import es.voghdev.pdfviewpager.library.util.FileUtil;
+import com.grasshopper.pdfviewpager.library.util.FileUtil;
 
 public class CopyAssetThreadImpl implements CopyAsset {
     Context context;

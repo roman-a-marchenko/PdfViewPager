@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager.library;
+package com.grasshopper.pdfviewpager.library;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -22,7 +22,7 @@ import android.view.MotionEvent;
 
 import androidx.viewpager.widget.ViewPager;
 
-import es.voghdev.pdfviewpager.library.adapter.PDFPagerAdapter;
+import com.grasshopper.pdfviewpager.library.adapter.PDFPagerAdapter;
 
 public class PDFViewPager extends ViewPager {
     protected Context context;

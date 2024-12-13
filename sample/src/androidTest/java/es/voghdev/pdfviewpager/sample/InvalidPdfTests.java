@@ -1,4 +1,4 @@
-package es.voghdev.pdfviewpager.sample;
+package com.grasshopper.pdfviewpager.sample;
 
 import androidx.test.espresso.intent.rule.IntentsTestRule;
 import androidx.test.filters.LargeTest;
@@ -8,8 +8,8 @@ import org.junit.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import es.voghdev.pdfviewpager.MainActivity;
-import es.voghdev.pdfviewpager.R;
+import com.grasshopper.pdfviewpager.MainActivity;
+import com.grasshopper.pdfviewpager.R;
 
 import static androidx.test.espresso.Espresso.onView;
 import static androidx.test.espresso.action.ViewActions.click;

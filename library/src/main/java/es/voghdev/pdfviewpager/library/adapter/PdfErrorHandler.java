@@ -1,4 +1,4 @@
-package es.voghdev.pdfviewpager.library.adapter;
+package com.grasshopper.pdfviewpager.library.adapter;
 
 public interface PdfErrorHandler {
     void onPdfError(Throwable t);

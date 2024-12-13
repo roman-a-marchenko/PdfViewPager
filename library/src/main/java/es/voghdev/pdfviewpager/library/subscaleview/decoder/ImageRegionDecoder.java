@@ -1,4 +1,4 @@
-package es.voghdev.pdfviewpager.library.subscaleview.decoder;
+package com.grasshopper.pdfviewpager.library.subscaleview.decoder;
 
 import android.content.Context;
 import android.graphics.Bitmap;

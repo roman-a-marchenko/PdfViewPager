@@ -1,4 +1,4 @@
-package es.voghdev.pdfviewpager.library.subscaleview.decoder;
+package com.grasshopper.pdfviewpager.library.subscaleview.decoder;
 
 import android.content.ContentResolver;
 import android.content.Context;
@@ -16,7 +16,7 @@ import androidx.annotation.Nullable;
 import java.io.InputStream;
 import java.util.List;
 
-import es.voghdev.pdfviewpager.library.subscaleview.SubsamplingScaleImageView;
+import com.grasshopper.pdfviewpager.library.subscaleview.SubsamplingScaleImageView;
 
 
 public class SkiaImageDecoder implements ImageDecoder {

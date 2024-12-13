@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package es.voghdev.pdfviewpager.library.remote;
+package com.grasshopper.pdfviewpager.library.remote;
 
 public interface DownloadFile {
     void download(String url, String destinationPath);
