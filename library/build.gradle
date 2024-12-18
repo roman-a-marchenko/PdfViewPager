@@ -3,20 +3,6 @@ plugins {
     id 'maven-publish'
 }
 
-ext {
-    libraryName = 'PdfViewPager'
-    libraryDescription = 'Android widget to display PDF documents in your Views, Activities or Fragments.'
-    siteUrl = 'https://github.com/voghDev/PdfViewPager'
-    gitUrl = 'https://github.com/voghDev/PdfViewPager.git'
-    libraryVersion = '1.1.2'
-    developerId = 'voghDev'
-    developerName = 'Olmo Gallegos'
-    developerEmail = 'vendofiatpunto@hotmail.com'
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
-
 android {
     compileSdk 34
 
@@ -89,9 +75,9 @@ java {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'com.github.RinorDreshaj'
+            groupId = 'com.github.nur-rmarchenko'
             artifactId = 'PdfViewPager'
-            version = '1.0.9'
+            version = '1.1.0'
 
             artifact(bundleReleaseAar())
 

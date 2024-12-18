@@ -21,7 +21,7 @@
             android:text="@string/flaticon_attr"
             android:autoLink="web"/>
 
-        <es.voghdev.pdfviewpager.library.PDFViewPager
+        <com.grasshopper.pdfviewpager.library.PDFViewPager
             android:id="@+id/pdfViewPager"
             android:layout_width="match_parent"
             android:layout_height="480dp"/>

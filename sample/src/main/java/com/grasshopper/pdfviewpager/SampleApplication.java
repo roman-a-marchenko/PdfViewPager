@@ -30,7 +30,7 @@ public class SampleApplication extends Application {
     public void onCreate() {
         super.onCreate();
 
-        initSampleAssets();
+        //initSampleAssets();
     }
 
     private void initSampleAssets() {
